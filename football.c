@@ -1,4 +1,4 @@
-// Here we are including the library that allows us to have input and output
+// Here we are including the library that allows us to have input and outputs
 #include<stdio.h>
 // Here we are including the header file we defined earlier.
 #include "football.h"
