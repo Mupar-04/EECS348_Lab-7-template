@@ -1,3 +1,4 @@
+// Here we are checking if there is any other same methods were defined 
 #ifndef __LAB_H__
 #define __LAB_H__
 
@@ -9,6 +10,8 @@
  * @param points
  * @return int 
  */
+
+// This is a function declaration and this function is responsible for counting the different combinations. 
 int count_combinations(int points);
 
 /**
@@ -17,6 +20,9 @@ int count_combinations(int points);
  * 
  * @param points
  */
+
+// This is a function delcaration and this function is responsible for printing all different combinations
 void print_combinations(int points);
 
+//End of the include guard
 #endif /* __LAB_H__ */
