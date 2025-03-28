@@ -1,3 +1,4 @@
+// Here we are checking if there is any other same methods were defined
 #ifndef __REPORT_H__
 #define __REPORT_H__
 
@@ -9,6 +10,8 @@
  * @param celsius
  * @return float
  */
+
+// This is a function declaration and this function is responsible for converting from celsius to fahrenheit. It takes in celsius as parameter
 float celsius_to_fahrenheit(float celsius);
 
 /**
@@ -17,6 +20,8 @@ float celsius_to_fahrenheit(float celsius);
  * @param fahrenheit
  * @return float
  */
+
+// This is a function declaration and this function is responsible for converting from fahrenheit to celsius. It takes in fahrenheit as parameter
 float fahrenheit_to_celsius(float fahrenheit);
 
 /**
@@ -25,6 +30,8 @@ float fahrenheit_to_celsius(float fahrenheit);
  * @param celsius
  * @return float
  */
+
+// This is a function declaration and this function is responsible for converting from celsius to kelvin. It takes in celsius as parameter
 float celsius_to_kelvin(float celsius);
 
 /**
@@ -33,6 +40,12 @@ float celsius_to_kelvin(float celsius);
  * @param celsius
  * @return float
  */
-float kelvin_to_celsius(float celsius);
 
+// This is a function declaration and this function is responsible for converting from kelvin to celsius. It takes in kelvin as parameter
+float kelvin_to_celsius(float kelvin);
+
+// This is a function declaration and this function is responsible for categorizing the given temperature by the user. It takes in celsius as parameter
+void categorize_temperature(float celsius);
+
+//End of the include guard
 #endif /* __REPORT_H__ */
